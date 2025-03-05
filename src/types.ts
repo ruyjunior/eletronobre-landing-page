@@ -7,7 +7,7 @@ export interface IServices {
     title: string;
     description: string;
     imageSrc: string;
-    bullets: IBenefitBullet[]
+    bullets: IServicesBullet[]
 }
 
 export interface IServicesBullet {
