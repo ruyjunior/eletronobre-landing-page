@@ -1,9 +1,9 @@
 import { motion } from "framer-motion"
 
-import { IBenefitBullet } from "@/types"
-import { childVariants } from "./BenefitSection"
+import { IServicesBullet } from "@/types"
+import { childVariants } from "./ServicesSection"
 
-const BenefitBullet: React.FC<IBenefitBullet> = ({ title, description, icon }: IBenefitBullet) => {
+const ServicesBullet: React.FC<IServicesBullet> = ({ title, description, icon }: IServicesBullet) => {
     return (
         <motion.div
             className="flex flex-col items-center mt-8 gap-3 lg:gap-5 lg:flex-row lg:items-start"
@@ -24,4 +24,4 @@ const BenefitBullet: React.FC<IBenefitBullet> = ({ title, description, icon }: I
     )
 }
 
-export default BenefitBullet
+export default ServicesBullet

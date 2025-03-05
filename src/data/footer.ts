@@ -7,31 +7,31 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Technical and specialized services with quality assurance.",
     quickLinks: [
         {
-            text: "Features",
-            url: "#features"
+            text: "Services",
+            url: "#services"
         },
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "Clients",
+            url: "#clients"
         },
         {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "Contact Us",
+            url: "#contactus"
         }
     ],
     email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    telephone: '+55 (51) 99740 - 5047',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
+        //twitter: 'https://twitter.com/Twitter',
+        //facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
+        //linkedin: 'https://www.linkedin.com',
         // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        instagram: 'https://www.instagram.com/eletro_nobre',
     }
 }

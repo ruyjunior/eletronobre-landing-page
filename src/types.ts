@@ -3,14 +3,14 @@ export interface IMenuItem {
     url: string;
 }
 
-export interface IBenefit {
+export interface IServices {
     title: string;
     description: string;
     imageSrc: string;
     bullets: IBenefitBullet[]
 }
 
-export interface IBenefitBullet {
+export interface IServicesBullet {
     title: string;
     description: string;
     icon: JSX.Element;

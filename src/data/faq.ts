@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `How does ${siteDetails.siteName} improve industrial electrical systems?`,
+        answer: 'We optimize energy distribution, enhance system reliability, and implement automation solutions to increase efficiency and reduce operational costs.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `What are the benefits of thermography in industrial maintenance?`,
+        answer: 'Thermography allows early detection of overheating components, preventing failures and reducing downtime. It also helps identify insulation issues and energy losses.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: 'How does preventive maintenance reduce costs?',
+        answer: 'By proactively monitoring equipment conditions and scheduling maintenance in advance, we help prevent unexpected failures and expensive emergency repairs.',
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'Can your solutions be customized for my facility?',
+        answer: 'Absolutely! We tailor our automation, electrical, and maintenance solutions to meet the specific needs of your industrial or commercial environment.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: 'Do you offer real-time monitoring solutions?',
+        answer: 'Yes! Our advanced monitoring systems provide real-time data and predictive analytics to ensure optimal performance and early fault detection.',
     }
 ];
